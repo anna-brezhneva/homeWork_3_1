@@ -7,8 +7,8 @@ int b = int.Parse(Console.ReadLine());
 
 if (a > b)
 {
-    Console.WriteLine($"{a} - max");
+    Console.WriteLine($"{a} - max, {b} - min");
 }
 else{
-    Console.WriteLine($"{b} - max");
+    Console.WriteLine($"{b} - max, {a} - min");
 }
